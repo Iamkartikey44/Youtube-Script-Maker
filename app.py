@@ -21,7 +21,7 @@ st.title("❤️ YouTube Script Writing Tool")
 
 st.sidebar.title("😎🗝️")
 st.session_state['API_Key'] = st.sidebar.text_input("What's your API Key?",type='password')
-st.sidebar.image('LLM_YT_ScriptMaker\Youtube.jpg',width=300, use_column_width=True)
+st.sidebar.image('Youtube.jpg',width=300, use_column_width=True)
 
 prompt = st.text_input("Please provide the topic of the video",key="prompt")
 video_length = st.text_input("Expected Video Length 🕒 (in minutes)",key="video_length")
